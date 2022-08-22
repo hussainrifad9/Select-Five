@@ -1,0 +1,13 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#selcet-v{
+    height: 330px;
+    min-width: 250px ;
+
+}
+#budget{
+    height: 420px;
+    min-width: 250px ;
+}
