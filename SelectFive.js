@@ -36,7 +36,7 @@ function clickhandler(buttonClick, listsInUl, playerInnerText) {
 
 }
 
-
+// _____________________Function for total player cost_____________________ 
 
 function TotalPlayerCost(buttonPlayer, eachPlayerCost, displayAmount)
 {
@@ -53,6 +53,7 @@ function TotalPlayerCost(buttonPlayer, eachPlayerCost, displayAmount)
 }
 
 
+//______________________Calling the function_________________________
 
 clickhandler('button-messi', 'list-five', 'playernameMessi');
 clickhandler('button-ramos', 'list-five', 'playernameRamos');
@@ -69,6 +70,9 @@ clickhandler('button-vitinha', 'list-five', 'playernameVitinha');
 
 TotalPlayerCost('playerCalculation', 'playerCost', 'displaycost');
 
+
+
+// _____________________________Calculating the Total cost______________________________
 
 
 document.getElementById('totalCal').addEventListener('click', function(){
