@@ -27,6 +27,12 @@ function clickhandler(buttonClick, listsInUl, playerInnerText) {
             addlist.appendChild(li);
 
         }
+        else {
+            
+            alert(" You can't enter more than 5! ")
+
+        }
+        
 
         // _______________Calling the disable button function____________
 
