@@ -1,7 +1,10 @@
+// _______Function for Disable Button_________ 
+
 function DisableNextButton(btnId) {
     document.getElementById(btnId).disabled = 'true';
 }
 
+// _______Function for Add player in the list_________ 
 
 function clickhandler(buttonClick, listsInUl, playerInnerText) {
 
@@ -14,12 +17,18 @@ function clickhandler(buttonClick, listsInUl, playerInnerText) {
         li.innerText = playerNAme;
         console.log(addlist.getElementsByTagName('li'));
 
+
+        // ___________Check if list not larger than 5________________
+
+
         if (addlist.getElementsByTagName('li').length < 5 ) {
             
 
             addlist.appendChild(li);
 
         }
+
+        // _______________Calling the disable button function____________
 
         DisableNextButton(buttonClick);
     
